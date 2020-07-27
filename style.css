@@ -24,6 +24,8 @@ body {
 }
 
 .person {
+    display: flex;
+    align-items: flex-start;
 }
 .person__name {
   font-size: 36px;
@@ -56,4 +58,8 @@ body {
 
 .person__info {
   margin-bottom: 24px;
+}
+.person__picture {
+    margin-right: 32px;
+
 }
